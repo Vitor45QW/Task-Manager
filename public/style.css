@@ -1,0 +1,151 @@
+body {
+    background-color: rgb(96, 96, 226);
+}
+.all-container {
+    display: flex;
+
+}
+
+
+
+    /* Start of styles of projects sidebar*/
+    .projects-sidebar {
+        font-family: "Roboto";
+        background-color: whitesmoke;
+        width: 300px;
+        height: 1000px;
+        margin-right: 50px; 
+        padding: 20px; 
+        box-sizing: border-box; 
+        justify-content: center;
+        
+        text-align: center;
+    }
+    .item {
+        
+        text-align: center;
+        padding: 15px;
+        font-size: 25px;
+        color: #9691f3;
+    
+    }
+    
+    .add {
+        
+        
+        margin-top: auto;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #f4e3e3;
+        background: linear-gradient(90deg, #000000 0%, #595772 100%);
+        padding: 15px 30px;
+        border: solid #000000 2px;
+        box-shadow: rgb(0, 0, 0) 0px 0px 0px 0px;
+        border-radius: 42px;
+        transition : 1067ms;
+        transform: translateY(5);
+        
+        flex-direction: row;
+        align-items: center;
+        cursor: pointer;
+        }
+        
+        .add:hover{
+         
+        transition : 1067ms;
+        padding: 25px 80px;
+        font-size: 18px;
+        transform : translateY(-5px);
+        background: linear-gradient(90deg, #1800cc 0%, #8a83eb 100%);
+        color: #ffffff;
+        border: none;
+        }
+        /*End of projects sidebar styles*/
+    
+    
+        /*Start of project goals container*/
+        
+        .goals-container {
+           
+            width: 1700px;
+            height: 500px;
+            background-color: whitesmoke;
+            padding: 20px;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .task-container {
+            border: 1px solid rgb(131, 109, 230);
+            display: flex;
+            flex-direction: row;
+            
+            max-height: 40px;
+              
+            padding: 10px;
+            margin-right: 10px;
+            margin-left: 10px;
+            margin-top: 70px;
+            border-radius: 5px;
+        }
+
+        .task-item {
+            margin-right: 20px;
+            position: relative;
+            width: 40%;
+            height: 50%;
+            top: -5px;
+        }
+
+        
+
+        .task-concluded {
+            background-color: greenyellow;
+            color: white;
+            margin-right: 40px;
+            padding: 5px;
+            position: relative;
+            top: -10px;
+            border-radius: 10px;
+        }
+
+        .limit-date {
+
+            position: relative;
+            top: -5px;
+            
+        }
+
+       
+    .static-titles-align{
+
+        display: flex;
+        flex-direction: row;
+        font-size: 10px;  
+        position: relative;
+        top: +81px;  
+        left: 618px;
+        
+
+    }
+     
+    .static-titles-status {
+        margin-right: 47px;
+    }
+
+    .buttons-container {
+
+        margin-bottom: 20px;
+    }
+
+    .edit-button {
+        border-radius: 10px;
+        background-color: rgb(219, 204, 204);
+        color: white;
+
+    }
+    .erase-button {
+        border-radius: 10px;
+        background-color: red;
+        color: white;
+    }
