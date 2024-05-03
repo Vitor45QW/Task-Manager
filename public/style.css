@@ -11,14 +11,14 @@ body {
     /* Start of styles of projects sidebar*/
     .projects-sidebar {
         font-family: "Roboto";
-        background-color: whitesmoke;
-        width: 300px;
+        background-color: rgb(0, 0, 0);
+        width: 800px;
         height: 1000px;
         margin-right: 50px; 
         padding: 20px; 
         box-sizing: border-box; 
         justify-content: center;
-        
+        color: white;
         text-align: center;
     }
     .item {
@@ -134,18 +134,33 @@ body {
     }
 
     .buttons-container {
-
+        
+        display: flex;
+        flex-direction: row;
         margin-bottom: 20px;
+        justify-content: center;
+        align-items: center;
     }
 
     .edit-button {
         border-radius: 10px;
         background-color: rgb(219, 204, 204);
         color: white;
+        width: 45px;
+        height: 35px;
+        border-radius: 20px;
 
     }
     .erase-button {
         border-radius: 10px;
-        background-color: red;
+        background-color: rgb(154, 26, 26);
         color: white;
+        width: 45px;
+        height: 35px;
+        border-radius: 20px;
+    }
+    .input-style {
+        border-radius: 15px;
+        padding: 20px;
+
     }

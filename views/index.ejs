@@ -16,23 +16,31 @@
 
 
     <!--Start of projects sidebar!-->
-    <div class="projects-sidebar">    
+        
+
+
+    <div class="projects-sidebar"> 
+            
     <h1>Projects</h1>
+    <form action="/create" method="post">
+        <input class="input-style" type="text" name="list" id="list" placeholder="Put your new project here">
+    <button id="addButton" type="submit" class="add">New project</button>
+    </form>    
     <p class="item"></p>
   
 
         <% tasksList.forEach((list) =>{   %>
-            <p class="item"> <%= list.list %>  </p>
             <div class="buttons-container">
-            <button class="edit-button" href="">Edit</button>
-            <button class="erase-button" href="">Erase</button>
+
+            <p class="item"> <%= list.list %>  </p>
+            <button class="edit-button" href=""></button>
+            <button class="erase-button" href="">X</button>
+                
+            </button>
             </div>
           <% }) %>  
 
-    <form action="/create" method="post">
-        <input type="text" name="list" id="list" placeholder="Put your new project here">
-    <button id="addButton" type="submit" class="add">New project</button>
-    </form>    
+   
     </div>
     <!--End of projects sidebar-->
 
